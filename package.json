@@ -4,8 +4,11 @@
   "description": "Github Pages: https://github.com/Antikab/ahj-DOM",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "jest --coverage"
-  },
+	"start": "webpack-dev-server --mode development",
+	"build": "webpack --mode production",
+	"test": "jest --coverage",
+	"lint": "eslint ."
+ },
   "author": "antikab",
   "license": "ISC",
   "devDependencies": {
